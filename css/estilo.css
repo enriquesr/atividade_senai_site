@@ -1,0 +1,96 @@
+/*cabeçalho*/
+/* dimensões da logo definida no html
+
+/*Conteudo principal*/
+main{
+  min-height: 500px;
+}
+
+body{
+  background-color: #D6D5E5;
+}
+/*banner*/
+/* tamanhos das imagens já ajustados no figma
+
+/*Produtos vendidos*/
+
+#section-vendidos{
+  text-align: center;
+}
+#section-vendidos h2{
+  font-weight: bold;
+  padding: 20px;
+}
+#section-vendidos img{
+  height: 300px;
+  border-radius: 10px;
+}
+#section-vendidos .card{
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #E6E6EC;
+}
+
+#section-vendidos .preco{
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+/*Rodapé*/
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #1A183F;
+    margin-top: 60px;
+    color: white;
+}
+
+footer p{
+  padding: 0px;
+  margin: 0px;
+}
+
+footer p{
+  font-weight: bold;
+  padding: 10px;
+}
+
+/*Botão Voltar topo*/
+
+#voltar-topo{
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+}
+/* página de login  */
+
+#section-login{
+  margin-top: 100px;
+}
+#section-login h1{
+  text-align: center;
+}
+#section-login input{
+  width: 100%;
+}
+/* Formulário de cadastro*/
+
+#section-cadastro{
+  padding: 5px;
+  text-align: center;
+}
+
+#form-cadastrar{
+  padding: 50px;
+  display: none;
+}
+
+.custom-container {
+  max-width: 1600px; /* Defina o valor que considerar adequado */
+  margin: 0 auto;
+  display: block; /* Para centralizar o conteúdo horizontalmente */
+}
